@@ -1,0 +1,553 @@
+Q1. Ans. #include <bits/stdc++.h>
+using namespace std;
+
+void d()
+{
+    cout << "Function D Started" << endl;
+    cout << "Function D Ended" << endl;
+}
+
+void c()
+{
+    cout << "Function C Started" << endl;
+    d();
+    cout << "Function C Ended" << endl;
+}
+
+void b()
+{
+    cout << "Function B Started" << endl;
+    c();
+    cout << "Function B Ended" << endl;
+}
+
+void a()
+{
+    cout << "Function A Started" << endl;
+    b();
+    cout << "Function A Ended" << endl;
+}
+
+int main()
+{
+    // Multi- level Function
+    cout << "Function Main Started" << endl;
+    a();
+    cout << "Function Main Ended" << endl;
+    return 0;
+}
+
+Q2. Ans. #include <bits/stdc++.h>
+using namespace std;
+
+void j()
+{
+    cout << "Function J Started" << endl;
+    cout << "Function J Ended" << endl;
+}
+
+void i()
+{
+    cout << "Function I Started" << endl;
+    cout << "Function I Ended" << endl;
+}
+
+void d()
+{
+    cout << "Function D Started" << endl;
+    i();
+    j();
+    cout << "Function D Ended" << endl;
+}
+
+void g()
+{
+    cout << "Function G Started" << endl;
+    cout << "Function G Ended" << endl;
+}
+
+void h()
+{
+    cout << "Function H Started" << endl;
+    cout << "Function H Ended" << endl;
+}
+
+void c()
+{
+    cout << "Function C Started" << endl;
+    g();
+    h();
+    cout << "Function C Ended" << endl;
+}
+
+void e()
+{
+    cout << "Function E Started" << endl;
+    cout << "Function E Ended" << endl;
+}
+
+void f()
+{
+    cout << "Function F Started" << endl;
+    cout << "Function F Ended" << endl;
+}
+
+void b()
+{
+    cout << "Function B Started" << endl;
+    e();
+    f();
+    cout << "Function B Ended" << endl;
+}
+
+void a()
+{
+    cout << "Function A Started" << endl;
+    b();
+    c();
+    d();
+    cout << "Function A Ended" << endl;
+}
+
+int main()
+{
+    cout << "Function Main Started" << endl;
+    a();
+    cout << "Function Main Ended" << endl;
+    return 0;
+}
+
+Q3. Ans. #include <bits/stdc++.h>
+using namespace std;
+
+void i()
+{
+    cout << "Function I Started" << endl;
+    cout << "Function I Ended" << endl;
+}
+
+void m()
+{
+    cout << "Function M Started" << endl;
+    cout << "Function M Ended" << endl;
+}
+
+void g()
+{
+    cout << "Function G Started" << endl;
+    cout << "Function G Ended" << endl;
+}
+
+void f()
+{
+    cout << "Function F Started" << endl;
+    g();
+    m();
+    i();
+    cout << "Function F Ended" << endl;
+}
+
+void e()
+{
+    cout << "Function E Started" << endl;
+    cout << "Function E Ended" << endl;
+}
+
+void d()
+{
+    cout << "Function D Started" << endl;
+    f();
+    cout << "Function D Ended" << endl;
+}
+
+void c()
+{
+    cout << "Function C Started" << endl;
+    cout << "Function C Ended" << endl;
+}
+
+void b()
+{
+    cout << "Function B Started" << endl;
+    c();
+    d();
+    e();
+    cout << "Function B Ended" << endl;
+}
+
+void a()
+{
+    cout << "Function A Started" << endl;
+    b();
+    cout << "Function A Ended" << endl;
+}
+
+int main()
+{
+    cout << "Function Main Started" << endl;
+    a();
+    cout << "Function Main Ended" << endl;
+    return 0;
+}
+
+Q4. Ans. #include <bits/stdc++.h>
+using namespace std;
+
+void f()
+{
+    cout << "Function F Started" << endl;
+    cout << "Function F Ended" << endl;
+}
+
+void e()
+{
+    cout << "Function E Started" << endl;
+    cout << "Function E Ended" << endl;
+}
+
+void d()
+{
+    cout << "Function D Started" << endl;
+    cout << "Function D Ended" << endl;
+}
+
+void c()
+{
+    cout << "Function C Started" << endl;
+    d();
+    e();
+    f();
+    cout << "Function C Ended" << endl;
+}
+
+void b()
+{
+    cout << "Function B Started" << endl;
+    c();
+    cout << "Function B Ended" << endl;
+}
+
+void a()
+{
+    cout << "Function A Started" << endl;
+    b();
+    cout << "Function A Ended" << endl;
+}
+
+int main()
+{
+    cout << "Function Main Started" << endl;
+    a();
+    cout << "Function Main Ended" << endl;
+    return 0;
+}
+
+Q5. Ans. #include <bits/stdc++.h>
+using namespace std;
+
+void d()
+{
+    cout << "Function D Started" << endl;
+    cout << "Function D Ended" << endl;
+}
+
+void h()
+{
+    cout << "Function H Started" << endl;
+    cout << "Function H Ended" << endl;
+}
+
+void i()
+{
+    cout << "Function I Started" << endl;
+    cout << "Function I Ended" << endl;
+}
+
+void g()
+{
+    cout << "Function G Started" << endl;
+    i();
+    cout << "Function G Ended" << endl;
+}
+
+void f()
+{
+    cout << "Function F Started" << endl;
+    cout << "Function F Ended" << endl;
+}
+
+void e()
+{
+    cout << "Function E Started" << endl;
+    f();
+    g();
+    h();
+    cout << "Function E Ended" << endl;
+}
+
+void c()
+{
+    cout << "Function C Started" << endl;
+    e();
+    cout << "Function C Ended" << endl;
+}
+
+void b()
+{
+    cout << "Function B Started" << endl;
+    cout << "Function B Ended" << endl;
+}
+
+void a()
+{
+    cout << "Function A Started" << endl;
+    b();
+    c();
+    d();
+    cout << "Function A Ended" << endl;
+}
+
+int main()
+{
+    cout << "Function Main Started" << endl;
+    a();
+    cout << "Function Main Ended" << endl;
+    return 0;
+}
+
+Q6. Ans. #include <bits/stdc++.h>
+using namespace std;
+    
+void g()
+{
+    cout << "Function G Started" << endl;
+    cout << "Function G Ended" << endl;
+}
+
+void f()
+{
+    cout << "Function F Started" << endl;
+    cout << "Function F Ended" << endl;
+}
+
+void e()
+{
+    cout << "Function E Started" << endl;
+    cout << "Function E Ended" << endl;
+}
+
+void d()
+{
+    cout << "Function D Started" << endl;
+    e();
+    f();
+    g();
+    cout << "Function D Ended" << endl;
+}
+
+void c()
+{
+    cout << "Function C Started" << endl;
+    d();
+    cout << "Function C Ended" << endl;
+}
+
+void b()
+{
+    cout << "Function B Started" << endl;
+    c();
+    cout << "Function B Ended" << endl;
+}
+
+void a()
+{
+    cout << "Function A Started" << endl;
+    b();
+    cout << "Function A Ended" << endl;
+}
+
+int main()
+{
+    cout << "Function Main Started" << endl;
+    a();
+    cout << "Function Main Ended" << endl;
+    return 0;
+}
+
+Q8. Ans. This Code Runs Infinite Times 
+#include <bits/stdc++.h>
+using namespace std;
+
+void a();
+void b();
+void c();
+void d();
+void e();
+void f();
+void g();
+void h();
+
+void a()
+{
+    cout << "Function A Started" << endl;
+    b();
+    c();
+    cout << "Function A Ended" << endl;
+}
+
+void b()
+{
+    cout << "Function B Started" << endl;
+    f();
+    cout << "Function B Ended" << endl;
+}
+
+void c()
+{
+    cout << "Function C Started" << endl;
+    a();
+    cout << "Function C Ended" << endl;
+}
+
+void d()
+{
+    cout << "Function D Started" << endl;
+    c();
+    cout << "Function D Ended" << endl;
+}
+
+void e()
+{
+    cout << "Function E Started" << endl;
+    d();
+    cout << "Function E Ended" << endl;
+}
+
+void h()
+{
+    cout << "Function H Started" << endl;
+    e();
+    cout << "Function H Ended" << endl;
+}
+
+void g()
+{
+    cout << "Function G Started" << endl;
+    h();
+    cout << "Function G Ended" << endl;
+}
+
+void f()
+{
+    cout << "Function F Started" << endl;
+    g();
+    cout << "Function F Ended" << endl;
+}
+
+int main()
+{
+    cout << "Function Main Started" << endl;
+    a();
+    cout << "Function Main Ended" << endl;
+    return 0;
+}
+
+Q9. Ans. This Frame Function Run Infinite Times 
+#include <bits/stdc++.h>
+using namespace std;
+
+void a();
+
+void c()
+{
+    cout << "Function C Started" << endl;
+    a();
+    cout << "Function C Ended" << endl;
+}
+
+void d()
+{
+    cout << "Function D Started" << endl;
+    c();
+    cout << "Function D Ended" << endl;
+}
+
+void b()
+{
+    cout << "Function B Started" << endl;
+    d();
+    cout << "Function B Ended" << endl;
+}
+
+void a()
+{
+    cout << "Function A Started" << endl;
+    b();
+    c();
+    cout << "Function A Ended" << endl;
+}
+
+int main()
+{
+    cout << "Function Main Started" << endl;
+    a();
+    cout << "Function Main Ended" << endl;
+    return 0;
+}
+
+Q10. Ans. This Code Runs Infinite Time
+#include <bits/stdc++.h>
+using namespace std;
+
+void a();
+
+void c()
+{
+    cout << "Function C Started" << endl;
+    a();
+    cout << "Function C Ended" << endl;
+}
+
+void e()
+{
+    cout << "Function E Started" << endl;
+    c();
+    cout << "Function E Ended" << endl;
+}
+
+void f()
+{
+    cout << "Function F Started" << endl;
+    e();
+    cout << "Function F Ended" << endl;
+}
+
+void d()
+{
+    cout << "Function D Started" << endl;
+    f();
+    cout << "Function D Ended" << endl;
+}
+
+void b()
+{
+    cout << "Function B Started" << endl;
+    d();
+    cout << "Function B Ended" << endl;
+}
+
+void a()
+{
+    cout << "Function A Started" << endl;
+    b();
+    c();
+    cout << "Function A Ended" << endl;
+}
+
+int main()
+{
+    cout << "Function Main Started" << endl;
+    a();
+    cout << "Function Main Ended" << endl;
+    return 0;
+}
